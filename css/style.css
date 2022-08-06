@@ -475,7 +475,7 @@ html {
     margin-left: 10px;
     color: var(--secondary-color);
     font-size: 20px;
-    transition: 0.3s;
+    transition: 1s;
   }
   .contact .info .social a {
     
@@ -485,16 +485,19 @@ html {
   .contact .info .social .fa-youtube:hover {
     color: red;
     transform: scale(1.2);
+      transform: rotate(360deg);
   }
 
   .contact .info .fa-facebook-f:hover {
     color: blue;
     transform: scale(1.2);
+      transform: rotate(360deg);
   }
 
   .contact .info .fa-twitter:hover {
     color:rgb(29 155 240);
     transform: scale(1.2);
+      transform: rotate(360deg);
   }
 /* End contact */
 /* Start Footer */
